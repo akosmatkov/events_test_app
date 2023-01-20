@@ -17,6 +17,9 @@ for each other's emits on create/delete event document.
 
 To test websocket connection you can also use **Postman** and it's **WebSocket Request**. To do this please follow [instuctions](https://learning.postman.com/docs/sending-requests/websocket/websocket/)
 
+Entire subscribe/unsubscribe to event of type logic is supposed to be implemented on client side
+with *addEventListener()* and *removeEventListener()* of **WebSocket API**.
+
 ## Running the app
 
 To run the application you will need [docker-compose](https://docs.docker.com/compose/install/) installed
